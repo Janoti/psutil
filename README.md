@@ -1,2 +1,2 @@
 # psutil-testes
-Python psutil -  scritps de teste
+Python psutil -  lib test scritps
