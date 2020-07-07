@@ -1,0 +1,12 @@
+# Get disk info with psutil (like df -h)
+
+def diskInfo():
+    path = input("Digite o path do Disco: ")
+    partitions = psutil.disk_partitions()
+    #USO DO DISCO
+    disk = psutil.disk_usage(path)
+    print(disk.total / (2**30))
+    print(disk.used / (2**30))
+    print(disk.free / (2**30))
+    print(disk.percent)
+    print(partitions)
