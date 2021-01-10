@@ -1,4 +1,4 @@
-# psutil-testes
-Python psutil -  lib test scritps
+# Teste com a biblioteca psutil com Python
+
 $ apt install python-pyp
 $ pip install psutil
